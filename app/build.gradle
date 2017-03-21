@@ -42,3 +42,5 @@ buildscript {
     ext.firebase_version = '10.2.0'
     ext.firebaseui_version = '1.2.0'
 }
+
+apply plugin: 'com.google.gms.google-services'

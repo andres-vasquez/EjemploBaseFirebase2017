@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">EjemploFirebase</string>
+    <string name="app_name">AndroidFirebase</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title">Alumnos de Programación 3</string>
+
+    <string name="ci">CI</string>
+    <string name="nombre">Nombre</string>
+    <string name="email">Email</string>
+    <string name="edad">Edad</string>
+    <string name="enviar">Enviar</string>
 </resources>

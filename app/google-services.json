@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "341884580463",
+    "firebase_url": "https://devfest2016-69abf.firebaseio.com",
+    "project_id": "devfest2016-69abf",
+    "storage_bucket": "devfest2016-69abf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:341884580463:android:1ec3a51a923161ba",
+        "android_client_info": {
+          "package_name": "com.gdglapaz.devfestlp2016"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "341884580463-rosar9j93tcu3tnq1u9d1t2bu0ostqer.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "341884580463-dp0s7veqdd368ljdkchb0jpc9t9q3abp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gdglapaz.devfestlp2016",
+            "certificate_hash": "021632e1ca23217c6d5d2d5fb9f80155c0f2681a"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0zA0xTQsJMSWiRL-8HVX3JTkLmNwZuVc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "341884580463-rosar9j93tcu3tnq1u9d1t2bu0ostqer.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:341884580463:android:241012aac3694f29",
+        "android_client_info": {
+          "package_name": "com.example.andresvasquez.ejemplofirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "341884580463-sq49mhrp42u4ngep0oclpfbp3psdm01q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.andresvasquez.ejemplofirebase",
+            "certificate_hash": "9bf6edbda3817eb1aef3509f54b8f2ed9cb5a16e"
+          }
+        },
+        {
+          "client_id": "341884580463-rosar9j93tcu3tnq1u9d1t2bu0ostqer.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0zA0xTQsJMSWiRL-8HVX3JTkLmNwZuVc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "341884580463-rosar9j93tcu3tnq1u9d1t2bu0ostqer.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
