@@ -59,6 +59,24 @@ public class MainActivity extends AppCompatActivity {
         lvParticipantes.setAdapter(adapter);
 
         //TODO Agregar autemticacion
+        firebaseAuth = FirebaseAuth.getInstance();
+        if (firebaseAuth.getCurrentUser() != null)
+        {
+            FirebaseUser currentUser = firebaseAuth.getCurrentUser();
+            mostrarUsuario(currentUser);
+            iniciarAcciones();
+        } else {
+            startActivityForResult(
+                    AuthUI.getInstance()
+                            .createSignInIntentBuilder()
+                            .setLogo(R.drawable.icon)
+                            .setProviders(
+                                    AuthUI.FACEBOOK_PROVIDER,
+                                    AuthUI.GOOGLE_PROVIDER,
+                                    AuthUI.EMAIL_PROVIDER)
+                            .setTheme(R.style.tema)
+                            .build(), RC_SIGN_IN);
+        }
     }
 
     @Override
@@ -149,6 +167,12 @@ public class MainActivity extends AppCompatActivity {
      */
     private void signOut() {
         //Todo cerrar sesion
-
+        AuthUI.getInstance().signOut(MainActivity.this).addOnCompleteListener(new OnCompleteListener<Void>() {
+            @Override
+            public void onComplete(@NonNull Task<Void> task) {
+                startActivity(new Intent(MainActivity.this, MainActivity.class));
+                finish();
+            }
+        });
     }
 }
