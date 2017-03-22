@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
         adapter=new ParticipantesAdapter(context,lstParticipantes);
         lvParticipantes.setAdapter(adapter);
 
-        //TODO Agregar autemticacion
+        //TODO Agregar auteNticacion
         firebaseAuth = FirebaseAuth.getInstance();
         if (firebaseAuth.getCurrentUser() != null)
         {
